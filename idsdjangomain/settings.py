@@ -25,7 +25,7 @@ SECRET_KEY = '2!b@7$8+y-a_7dt+hy$+x36jgm#3+yqh%jyhi(r8$6!0i0+n*_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['13.250.201.230','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['13.250.201.230','127.0.0.1','localhost','jobsubmission.herokuapp.com']
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'

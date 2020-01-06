@@ -1,0 +1,36 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:typ="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/types/">
+<soapenv:Header/>
+<soapenv:Body>
+   <typ:submitESSJobRequest>
+      <typ:jobPackageName>/oracle/apps/ess/financials/receivables/transactions/autoInvoices/</typ:jobPackageName>
+      <typ:jobDefinitionName>AutoInvoiceMasterEss</typ:jobDefinitionName>
+      <!--Zero or more repetitions:-->
+          <typ:paramList>1</typ:paramList>
+         <typ:paramList>{BusinessUnitIds}</typ:paramList>
+         <typ:paramList>{BatchSourceIds}</typ:paramList>
+         <typ:paramList>{sysdate}</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+         <typ:paramList>Y</typ:paramList>
+         <typ:paramList>null</typ:paramList>
+   </typ:submitESSJobRequest>
+</soapenv:Body>
+</soapenv:Envelope>

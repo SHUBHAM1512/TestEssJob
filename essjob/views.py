@@ -54,6 +54,5 @@ def essjob(request):
 	final_keys=['Job_ID']
 	combo=zip(final_keys,final_output)
 	final_result=json.dumps(dict(combo))
-	final_json = json.loads(final_result)
 	
-	return HttpResponse(final_json)
+	return HttpResponse(final_result)
